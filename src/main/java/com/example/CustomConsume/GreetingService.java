@@ -10,11 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-
 @Service
 public class GreetingService {
     private static final String API_URL = "https://anime-quotes1.p.rapidapi.com/api/random";
